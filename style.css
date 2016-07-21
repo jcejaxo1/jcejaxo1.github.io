@@ -1,0 +1,37 @@
+body {
+  font-family: "impact", sans-serif;
+  text-align: center;
+}
+
+  h1{
+    color: red
+}
+
+
+img{
+  border-radius: 100%
+}
+nav{
+  background-color: black;
+  text-align: left;
+
+}
+nav.verticle li {
+  display: block;
+li{
+  display: inline;
+}
+a{
+  display: inline-block;
+  padding: 100px 5px 100px 50px;
+  font-size: 50px;
+  background-color: white;
+  border-radius: 20%;
+  transition: all 250ms;
+}
+
+a:hoover {
+  color: red;
+  background-color: red;
+    }
+
